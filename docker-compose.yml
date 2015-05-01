@@ -4,4 +4,5 @@ plex:
   volumes:
   - /etc/localtime:/etc/localtime:ro
   - config:/config
-  - data:/data
+  - /mnt/series:/data/series
+  - /mnt/movies:/data/movies
